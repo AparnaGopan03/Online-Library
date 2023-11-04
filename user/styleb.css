@@ -1,0 +1,57 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+background: #eee;
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.container{
+width: 96%;
+margin: 20px auto;
+}
+
+h1{
+font-family:Tahoma, Geneva,sans-serif;
+text-transform: uppercase;
+border-left: 5px solid #1abc9c;
+margin: 10px;
+}
+
+.book{
+width:48%;
+float:left;
+background:#fff;
+margin:10px;
+padding:20px;
+}
+
+.icon{
+width: 15%;
+float: right;
+line-height: 100px;
+}
+
+button{
+background:#1abc9c;
+border-radius:7px;
+padding:6px 6px;
+color:#fff;
+float:right;
+cursor:pointer;
+}
+
+.content{
+                text-align: center;
+                height: 200px;
+                width : 200px;
+                display: table-cell;
+                vertical-align: middle;
+                border: 2px solid green;
+           
+
+}
+
